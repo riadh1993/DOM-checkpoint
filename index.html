@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Best shopping Site Ever</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js"></script>
+
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Links</a></li>
+
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">Welcome to our new shopping website</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Our New Products</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Pants</span>
+                    <img class="shop-item-image" src="./src/pants.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">10Dt</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Shoes</span>
+                    <img class="shop-item-image" src="./src/shoes.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">20Dt</span>
+                        <button class="btn btn-primary shop-item-button"type="button">Add to cart</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Hats</span>
+                    <img class="shop-item-image" src="./src/hats.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">30Dt</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Shirts</span>
+                    <img class="shop-item-image" src="./src/shirt.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">40Dt</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Cart</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">0Dt</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <small>All Rights Reserved 2020</small>
+        </footer>
+    </body>
+</html>
